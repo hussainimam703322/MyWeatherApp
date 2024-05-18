@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application in Java</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<div style="color:white; text-align:center">
+
+<img src="images/weather_logo1.png" alt="Weather Logo1" style="height: 200px; width: auto; filter: drop-shadow(10px 10px 10px black);">
+    <h1 style="font-size: 2.5em; color: #007bff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); margin: 20px 0;">Welcome to the Weather Web App</h1>
+        <h2 style="font-size: 1.8em; color: #28a745; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); margin: 10px 0;">Made by using Java,Servlet,JSP,OpenWeather API</h2>
+     <form action="MyServlet" method="post" class="searchInput">
+            <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city"/>
+            <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>    
+ </div>
+ 
+</body>
+</html>
